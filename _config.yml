@@ -3,26 +3,26 @@
 baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "G-41ZEE01DTM"
+google_analytics: ""
 exclude: ["images/raws"]
 
 # UI configs
-title: "Lens of Mo Beigi"
+title: "xiaowuley"
 subtitle: "Photography & Colouring"
-author: "Mo Beigi"
-email: "me@mobeigi.com"
+author: "xiaowuley"
+email: "xiaowuleyi@gmail.com"
 header:
- title: "Lens of"
- subtitle: "Mo Beigi"
+ title: "xiaowuleyi"
+ subtitle: "xiaowuleyi"
 footer:
- name: "Hi, I'm Mo"
- bio: "I am a photography and colouring hobbyist."
- github: ""
+ name: "Hi, I'm xiaowuleyi"
+ bio: "I am a photographer and colourist."
+ github: "https://github.com/xiaowuleyi"
 
 social_urls:
   facebook: null
-  twitter: null
-  instagram: "https://www.instagram.com/lensofmobeigi"
+  twitter: "https://x.com/xiaowuleyi"
+  instagram: null
   dribbble: null
   linkedin: null
   github: null
