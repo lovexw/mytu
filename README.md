@@ -1,35 +1,34 @@
-## Forked from
-https://github.com/rampatra/photography
+## 项目来源
+本项目fork自 [rampatra/photography](https://github.com/rampatra/photography)
 
-## Changes
-- Various bug fixes
-- Performance optimizations
-- Updated to latest multiverse from [https://html5up.net/multiverse](https://html5up.net/multiverse)
+## 主要变更
+- 修复了多个bug
+- 进行了性能优化
+- 更新至最新版 [Multiverse](https://html5up.net/multiverse) 主题
 
 ---
 
-## Run the website locally to test
-1. `$ cd photography` - go to the project directory
-2. `$ bundle install` - install gems
-3. Change the `baseurl` in `_config.yml`
-4. `$ bundle exec jekyll serve` - start/run the website
+## 本地运行网站
+1. `$ cd photography` - 进入项目目录
+2. `$ bundle install` - 安装Ruby依赖
+3. 修改 `_config.yml` 中的 `baseurl` 配置
+4. `$ bundle exec jekyll serve` - 启动网站
 
-### Build the website
-1. `$ cd photography` - go to the project directory
-2. `$ npm install` - install all npm dependencies
-3. `$ gulp` - minify css, js, resize images, etc.
+## 构建网站
+1. `$ cd photography` - 进入项目目录
+2. `$ npm install` - 安装npm依赖
+3. `$ gulp` - 压缩CSS/JS，调整图片尺寸等
 
-Note: You only need to build the website if you make changes such as replacing the images, modifying the css styles, etc.
- 
-## ProTips
+注意：只有在修改图片、CSS样式等情况下才需要重新构建网站。
 
-### Resize Images
-I have made this as a [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
-and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
+## 实用技巧
 
-1. Fork and clone the project to your computer
-2. Go inside the project `$ cd photography`
-3. Install all dependencies by `$ npm install`
-4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
-5. Run `$ gulp resize` to resize the images and to generate thumbnails automatically
-6. Push your changes to github.com by `$ git add --all` and `$ git commit -m "a nice commit message"` and then finally `$ git push origin master`
+### 图片尺寸调整
+本项目使用[npm](https://www.npmjs.com)和[gulp](http://gulpjs.com/)来自动化图片尺寸调整和缩略图生成：
+
+1. Fork并克隆项目到本地
+2. 进入项目目录 `$ cd photography`
+3. 安装依赖 `$ npm install`
+4. 将原始图片(JPG格式)放入`images`目录
+5. 运行 `$ gulp resize` 自动调整图片尺寸并生成缩略图
+6. 提交更改到GitHub
